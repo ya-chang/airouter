@@ -1,0 +1,58 @@
+{
+  "$schema": "https://json.schemastore.org/electron-builder.json",
+  "appId": "com.airouter.app",
+  "productName": "AiRouter",
+  "directories": {
+    "buildResources": "resources",
+    "output": "dist"
+  },
+  "files": [
+    "out/**/*",
+    "!**/*.map",
+    "!src/**/*"
+  ],
+  "extraResources": [
+    {
+      "from": "agents",
+      "to": "agents"
+    }
+  ],
+  "asar": true,
+  "win": {
+    "target": [
+      {
+        "target": "nsis",
+        "arch": ["x64"]
+      }
+    ],
+    "icon": "resources/installer-icon.ico"
+  },
+  "nsis": {
+    "oneClick": false,
+    "perMachine": false,
+    "allowToChangeInstallationDirectory": true,
+    "createDesktopShortcut": true,
+    "createStartMenuShortcut": true,
+    "installerIcon": "resources/installer-icon.ico",
+    "uninstallerIcon": "resources/installer-icon.ico",
+    "installerHeaderIcon": "resources/installer-icon.ico"
+  },
+  "mac": {
+    "target": [
+      {
+        "target": "dmg",
+        "arch": ["x64", "arm64"]
+      }
+    ],
+    "icon": "resources/installer-icon.ico"
+  },
+  "linux": {
+    "target": [
+      {
+        "target": "AppImage",
+        "arch": ["x64"]
+      }
+    ],
+    "icon": "resources/installer-icon.ico"
+  }
+}
