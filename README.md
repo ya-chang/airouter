@@ -1,3 +1,25 @@
+<p align="center">
+  <strong>🇬🇧 English</strong> | <a href="#-中文文档">中文</a>
+</p>
+
+**AiRouter** is an AI-powered expert routing system with **345+ specialized AI agents**. Write one prompt, and AiRouter automatically matches it to the best specialist agent for the task.
+
+> Like having a team of 345+ AI experts at your fingertips — one question, the right expert answers.
+
+| Feature | Description |
+|:---|:---|
+| 🎭 345+ Expert Agents | Specialists across coding, writing, analysis, design, business, and more |
+| 🧠 Smart Routing | Automatically matches your prompt to the best-fit expert |
+| ⚡ One-Click Output | Write once, get expert-level results instantly |
+| 🔧 Custom Agents | Create and configure your own expert agents |
+| 📦 Built on agency-agents | Extensible architecture |
+
+[⬇️ Download](https://github.com/ya-chang/airouter/releases) · [📖 Docs](#-快速开始)
+
+---
+
+<a id="-中文文档"></a>
+
 <div align="center">
 
 <img src="resources/icon.png" alt="AiRouter Logo" width="120" />
